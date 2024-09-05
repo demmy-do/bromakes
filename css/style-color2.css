@@ -10,6 +10,15 @@ Sample CSS overwriting main.css rules
     font-family :
     - Serif : "Playfair Display"
 */
+/* installer */
+@font-face {
+  font-family: "Cornero";
+  src: url(../fonts/slide/Cornero.otf);
+}
+@font-face {
+  font-family: "Fonseca";
+  src: url(../fonts/slide/Fonseca-Black.otf);
+}
 /* 1. Typography */
 /* page header */
 .page-header-alpha .navbar-mainmenu .nav-item {
@@ -21,6 +30,12 @@ Sample CSS overwriting main.css rules
   font-family: "Montserrat", "Open Sans", sans-serif;
   text-transform: none; }
 
+.cornero_txt{
+  font-family: "Cornero" !important;
+}
+.fonseca_txt{
+  font-family: "Fonseca" !important;
+}
 /* title */
 .display-title,
 .section-home h1,
@@ -461,4 +476,21 @@ Sample CSS overwriting main.css rules
     opacity: 1;
     -webkit-transform: none;
             transform: none;
-    transition-delay: 0.9s; } }
+    transition-delay: 0.9s; } 
+  }
+
+.bg-slide1{
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-slide2{
+  background-image: url(../img/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-slide3{
+  background-image: url(../img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
