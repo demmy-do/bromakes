@@ -118,7 +118,7 @@ $(document).on('ready', function () {
 	var autoScrolling = true;
 	var fitToSection = true;
 	var css3 = true;
-	var minWidth = 768;
+	var minWidth = 1;
 	// disable scroll overflow on small device
 	if (contextWindow.width() < minWidth) {
 		scrollOverflow = false;
